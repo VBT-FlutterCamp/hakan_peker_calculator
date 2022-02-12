@@ -14,22 +14,14 @@ class Calculate extends Calculator {
   Calculate(double sayi1, double sayi2) : super(sayi1, sayi2);
 
   @override
-  double bolme() {
-    return sayi1 / sayi2;
-  }
+  double bolme() => sayi1 / sayi2;
 
   @override
-  double carpma() {
-    return sayi1 * sayi2;
-  }
+  double carpma() => sayi1 * sayi2;
 
   @override
-  double cikarma() {
-    return sayi1 - sayi2;
-  }
+  double cikarma() => sayi1 - sayi2;
 
   @override
-  double toplama() {
-    return sayi1 + sayi2;
-  }
+  double toplama() => sayi1 + sayi2;
 }
